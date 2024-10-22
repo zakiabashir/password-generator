@@ -7,12 +7,7 @@ import Image from 'next/image'
 import bgImage from '../../public/image.webp'; // Import the image at the top
 // Import custom UI components from the UI directory
 import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardContent,
-  CardFooter,
+  Card
 } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
