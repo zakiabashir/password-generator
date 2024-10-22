@@ -62,8 +62,8 @@ export default function GeneratePassword() {
       () => {
         alert("Password copied to clipboard!"); // Alert on successful copy
       },
-      (err) => {
-        alert("Failed to copy password to clipboard."); // Alert on failed copy
+      () => {
+        alert("Failed to copy password to clipboard."); // Alert on failed copy, remove err parameter
       }
     );
   };
